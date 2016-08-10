@@ -6,7 +6,7 @@ ENV SONAR_VERSION=4.3 \
     SONARQUBE_HOME=/opt/sonarqube \
     SONARQUBE_JDBC_USERNAME=sonar \
     SONARQUBE_JDBC_PASSWORD=sonar \
-    SONARQUBE_JDBC_URL=
+    SONARQUBE_JDBC_URL=jdbc:mysql://127.0.0.1:3306/sonar
 
 # Http port
 EXPOSE 9040
